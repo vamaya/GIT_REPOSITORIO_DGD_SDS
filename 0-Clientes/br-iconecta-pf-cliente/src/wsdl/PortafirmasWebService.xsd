@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2.3-b01-.--><xs:schema version="1.0" targetNamespace="http://webservices.portafirmaswslib.esigna.indenova.com/" xmlns:tns="http://webservices.portafirmaswslib.esigna.indenova.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="archiveCircuit" type="tns:archiveCircuit"/>
+  <xs:element name="archiveCircuitResponse" type="tns:archiveCircuitResponse"/>
+  <xs:element name="cancelCircuit" type="tns:cancelCircuit"/>
+  <xs:element name="cancelCircuitResponse" type="tns:cancelCircuitResponse"/>
+  <xs:element name="closeTicket" type="tns:closeTicket"/>
+  <xs:element name="closeTicketResponse" type="tns:closeTicketResponse"/>
+  <xs:element name="copiaCompulsada" type="tns:copiaCompulsada"/>
+  <xs:element name="copiaCompulsadaResponse" type="tns:copiaCompulsadaResponse"/>
+  <xs:element name="createTicket" type="tns:createTicket"/>
+  <xs:element name="createTicketResponse" type="tns:createTicketResponse"/>
+  <xs:element name="deleteDocument" type="tns:deleteDocument"/>
+  <xs:element name="deleteDocumentResponse" type="tns:deleteDocumentResponse"/>
+  <xs:element name="downloadFile" type="tns:downloadFile"/>
+  <xs:element name="downloadFileResponse" type="tns:downloadFileResponse"/>
+  <xs:element name="getCircuitDefPermissions" type="tns:getCircuitDefPermissions"/>
+  <xs:element name="getCircuitDefPermissionsResponse" type="tns:getCircuitDefPermissionsResponse"/>
+  <xs:element name="getCircuitsNoFinalized" type="tns:getCircuitsNoFinalized"/>
+  <xs:element name="getCircuitsNoFinalizedResponse" type="tns:getCircuitsNoFinalizedResponse"/>
+  <xs:element name="getDefSignersByIdCircuit" type="tns:getDefSignersByIdCircuit"/>
+  <xs:element name="getDefSignersByIdCircuitResponse" type="tns:getDefSignersByIdCircuitResponse"/>
+  <xs:element name="getFormByCircuitDef" type="tns:getFormByCircuitDef"/>
+  <xs:element name="getFormByCircuitDefResponse" type="tns:getFormByCircuitDefResponse"/>
+  <xs:element name="getTreeEstructure" type="tns:getTreeEstructure"/>
+  <xs:element name="getTreeEstructureResponse" type="tns:getTreeEstructureResponse"/>
+  <xs:element name="initCircuit" type="tns:initCircuit"/>
+  <xs:element name="initCircuitBySigners" type="tns:initCircuitBySigners"/>
+  <xs:element name="initCircuitBySignersResponse" type="tns:initCircuitBySignersResponse"/>
+  <xs:element name="initCircuitResponse" type="tns:initCircuitResponse"/>
+  <xs:element name="searchCircuits" type="tns:searchCircuits"/>
+  <xs:element name="searchCircuitsResponse" type="tns:searchCircuitsResponse"/>
+  <xs:element name="unarchiveCircuit" type="tns:unarchiveCircuit"/>
+  <xs:element name="unarchiveCircuitResponse" type="tns:unarchiveCircuitResponse"/>
+  <xs:complexType name="initCircuit">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+      <xs:element name="asunto" type="xs:string" minOccurs="0"/>
+      <xs:element name="idOrgGroup" type="xs:int" minOccurs="0"/>
+      <xs:element name="noticeEnd" type="xs:int" minOccurs="0"/>
+      <xs:element name="idDefCircuit" type="xs:int" minOccurs="0"/>
+      <xs:element name="valuesForm" type="xs:string" minOccurs="0"/>
+      <xs:element name="documents" type="tns:signDocObject" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="nameFolder" type="xs:string" minOccurs="0"/>
+      <xs:element name="url" type="xs:string" minOccurs="0"/>
+      <xs:element name="NIF" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="signDocObject">
+    <xs:sequence>
+      <xs:element name="NOMBRE" type="xs:string" minOccurs="0"/>
+      <xs:element name="GUID" type="xs:string" minOccurs="0"/>
+      <xs:element name="CONTENIDO" ns1:expectedContentTypes="application/octet-stream" type="xs:base64Binary" minOccurs="0" xmlns:ns1="http://www.w3.org/2005/05/xmlmime"/>
+      <xs:element name="SIGNDETTACHED" type="tns:signDocObject" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="HASH" type="xs:string" minOccurs="0"/>
+      <xs:element name="METADATOS">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="entry" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="key" minOccurs="0" type="xs:string"/>
+                  <xs:element name="value" minOccurs="0" type="xs:string"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="idDoctype" type="xs:int" minOccurs="0"/>
+      <xs:element name="tipo" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="initCircuitResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:resultWSResponse" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="resultWSResponse">
+    <xs:sequence>
+      <xs:element name="circuitInstance" type="xs:string" minOccurs="0"/>
+      <xs:element name="response" type="tns:infoResultResponse" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="infoResultResponse">
+    <xs:sequence>
+      <xs:element name="code" type="xs:string" minOccurs="0"/>
+      <xs:element name="description_code" type="xs:string" minOccurs="0"/>
+      <xs:element name="result">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="entry" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="key" minOccurs="0" type="xs:string"/>
+                  <xs:element name="value" minOccurs="0" type="xs:anyType"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCircuitsNoFinalized">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCircuitsNoFinalizedResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:circuitInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="circuitInfo">
+    <xs:sequence>
+      <xs:element name="asunto" type="xs:string" minOccurs="0"/>
+      <xs:element name="auditoria" type="tns:circuitAudit" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="defCircuit" type="xs:string" minOccurs="0"/>
+      <xs:element name="docType" type="xs:string" minOccurs="0"/>
+      <xs:element name="documents" type="tns:docsCircuit" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="estado" type="xs:string" minOccurs="0"/>
+      <xs:element name="fecini" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="group" type="xs:string" minOccurs="0"/>
+      <xs:element name="idDefCircuit" type="xs:int" minOccurs="0"/>
+      <xs:element name="idDocType" type="xs:string" minOccurs="0"/>
+      <xs:element name="idGroup" type="xs:int" minOccurs="0"/>
+      <xs:element name="idSolicitante" type="xs:int" minOccurs="0"/>
+      <xs:element name="idcircuitinstance" type="xs:int" minOccurs="0"/>
+      <xs:element name="nifSolicitante" type="xs:string" minOccurs="0"/>
+      <xs:element name="solicitante" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="circuitAudit">
+    <xs:sequence>
+      <xs:element name="action" type="xs:string" minOccurs="0"/>
+      <xs:element name="f_fin" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="f_inicio" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="id" type="xs:int" minOccurs="0"/>
+      <xs:element name="idaction" type="xs:int" minOccurs="0"/>
+      <xs:element name="idorganizationgroup" type="xs:int" minOccurs="0"/>
+      <xs:element name="idrol" type="xs:int" minOccurs="0"/>
+      <xs:element name="iduser" type="xs:int" minOccurs="0"/>
+      <xs:element name="iduseraction" type="xs:int" minOccurs="0"/>
+      <xs:element name="nif" type="xs:string" minOccurs="0"/>
+      <xs:element name="nifuseraction" type="xs:string" minOccurs="0"/>
+      <xs:element name="observation" type="xs:string" minOccurs="0"/>
+      <xs:element name="participante" type="xs:string" minOccurs="0"/>
+      <xs:element name="usuario" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="docsCircuit">
+    <xs:sequence>
+      <xs:element name="idDocumentversion" type="xs:string" minOccurs="0"/>
+      <xs:element name="nombre" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cancelCircuit">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+      <xs:element name="NIF" type="xs:string" minOccurs="0"/>
+      <xs:element name="idcircuitinstance" type="xs:int" minOccurs="0"/>
+      <xs:element name="motivo" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cancelCircuitResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:resultResponse" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="resultResponse">
+    <xs:sequence>
+      <xs:element name="code" type="xs:string" minOccurs="0"/>
+      <xs:element name="description_code" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="archiveCircuit">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+      <xs:element name="NIF" type="xs:string" minOccurs="0"/>
+      <xs:element name="idCircuitInstance" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="archiveCircuitResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:resultResponse" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="copiaCompulsada">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+      <xs:element name="document" type="tns:docObject" minOccurs="0"/>
+      <xs:element name="reduction" type="xs:int" minOccurs="0"/>
+      <xs:element name="freetext" type="xs:string" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="docObject">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string" minOccurs="0"/>
+      <xs:element name="guid" type="xs:string" minOccurs="0"/>
+      <xs:element name="contenido" ns2:expectedContentTypes="application/octet-stream" type="xs:base64Binary" minOccurs="0" xmlns:ns2="http://www.w3.org/2005/05/xmlmime"/>
+      <xs:element name="csv" type="tns:csvObject" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="csvObject">
+    <xs:sequence>
+      <xs:element name="hash" type="xs:string" minOccurs="0"/>
+      <xs:element name="image" type="xs:base64Binary" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="copiaCompulsadaResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:certifiedCopyResponse" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="certifiedCopyResponse">
+    <xs:sequence>
+      <xs:element name="certified_copy" type="tns:docObject" minOccurs="0"/>
+      <xs:element name="code" type="xs:string" minOccurs="0"/>
+      <xs:element name="description_code" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="unarchiveCircuit">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+      <xs:element name="NIF" type="xs:string" minOccurs="0"/>
+      <xs:element name="idCircuitInstance" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="unarchiveCircuitResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:resultResponse" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="closeTicket">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="closeTicketResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCircuitDefPermissions">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCircuitDefPermissionsResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:scircuitDefinition" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="scircuitDefinition">
+    <xs:sequence>
+      <xs:element name="active" type="xs:int" minOccurs="0"/>
+      <xs:element name="addDocs" type="xs:int" minOccurs="0"/>
+      <xs:element name="addSigners" type="xs:int" minOccurs="0"/>
+      <xs:element name="alta" type="xs:int" minOccurs="0"/>
+      <xs:element name="codigo" type="xs:string" minOccurs="0"/>
+      <xs:element name="count" type="xs:int" minOccurs="0"/>
+      <xs:element name="description" type="xs:string" minOccurs="0"/>
+      <xs:element name="diasLimite" type="xs:int" minOccurs="0"/>
+      <xs:element name="edit" type="xs:int" minOccurs="0"/>
+      <xs:element name="fecalt" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="formatSignCodigo" type="xs:string" minOccurs="0"/>
+      <xs:element name="formatSignName" type="xs:string" minOccurs="0"/>
+      <xs:element name="groupName" type="xs:string" minOccurs="0"/>
+      <xs:element name="haveForm" type="xs:int" minOccurs="0"/>
+      <xs:element name="id" type="xs:int" minOccurs="0"/>
+      <xs:element name="idActionDeadTask" type="xs:int" minOccurs="0"/>
+      <xs:element name="idForm" type="xs:int" minOccurs="0"/>
+      <xs:element name="idFormatSign" type="xs:int" minOccurs="0"/>
+      <xs:element name="idUser" type="xs:int" minOccurs="0"/>
+      <xs:element name="idorggroup" type="xs:int" minOccurs="0"/>
+      <xs:element name="lastVersion" type="xs:int" minOccurs="0"/>
+      <xs:element name="mail" type="xs:int" minOccurs="0"/>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="orderSigners" type="xs:int" minOccurs="0"/>
+      <xs:element name="ownerName" type="xs:string" minOccurs="0"/>
+      <xs:element name="ownerSurname" type="xs:string" minOccurs="0"/>
+      <xs:element name="parentVersion" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDefSignersByIdCircuit">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+      <xs:element name="idCircuitDef" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDefSignersByIdCircuitResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:scircuitDefsigners" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="scircuitDefsigners">
+    <xs:sequence>
+      <xs:element name="action" type="xs:string" minOccurs="0"/>
+      <xs:element name="actionDeadTask" type="xs:string" minOccurs="0"/>
+      <xs:element name="addDocs" type="xs:int" minOccurs="0"/>
+      <xs:element name="addSigners" type="xs:int" minOccurs="0"/>
+      <xs:element name="autoSign" type="xs:int" minOccurs="0"/>
+      <xs:element name="cancel" type="xs:int" minOccurs="0"/>
+      <xs:element name="deadLineSign" type="xs:int" minOccurs="0"/>
+      <xs:element name="deleteDoc" type="xs:int" minOccurs="0"/>
+      <xs:element name="deleteSigner" type="xs:int" minOccurs="0"/>
+      <xs:element name="diasLimite" type="xs:int" minOccurs="0"/>
+      <xs:element name="editSigner" type="xs:int" minOccurs="0"/>
+      <xs:element name="id" type="xs:int" minOccurs="0"/>
+      <xs:element name="idAction" type="xs:int" minOccurs="0"/>
+      <xs:element name="idActionDeadTask" type="xs:int" minOccurs="0"/>
+      <xs:element name="idUser" type="xs:int" minOccurs="0"/>
+      <xs:element name="idcircuitdef" type="xs:int" minOccurs="0"/>
+      <xs:element name="iddefsigner" type="xs:int" minOccurs="0"/>
+      <xs:element name="idorganizationgroup" type="xs:int" minOccurs="0"/>
+      <xs:element name="idrol" type="xs:int" minOccurs="0"/>
+      <xs:element name="index_" type="xs:int" minOccurs="0"/>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="noticeDays" type="xs:int" minOccurs="0"/>
+      <xs:element name="ordendefsigner" type="xs:int" minOccurs="0"/>
+      <xs:element name="reassingTask" type="xs:int" minOccurs="0"/>
+      <xs:element name="signatureType" type="xs:string" minOccurs="0"/>
+      <xs:element name="signerType" type="xs:int" minOccurs="0"/>
+      <xs:element name="TSA" type="xs:string" minOccurs="0"/>
+      <xs:element name="timeStamp" type="xs:int" minOccurs="0"/>
+      <xs:element name="userAddsigner" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="initCircuitBySigners">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+      <xs:element name="asunto" type="xs:string" minOccurs="0"/>
+      <xs:element name="idOrgGroup" type="xs:int" minOccurs="0"/>
+      <xs:element name="noticeEnd" type="xs:int" minOccurs="0"/>
+      <xs:element name="valuesForm" type="xs:string" minOccurs="0"/>
+      <xs:element name="documents" type="tns:signDocObject" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="nameFolder" type="xs:string" minOccurs="0"/>
+      <xs:element name="url" type="xs:string" minOccurs="0"/>
+      <xs:element name="participantes" type="tns:scircuitSignersWS" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="NIF" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="scircuitSignersWS">
+    <xs:sequence>
+      <xs:element name="addDocs" type="xs:int" minOccurs="0"/>
+      <xs:element name="addSigners" type="xs:int" minOccurs="0"/>
+      <xs:element name="cancel" type="xs:int" minOccurs="0"/>
+      <xs:element name="deleteSigner" type="xs:int" minOccurs="0"/>
+      <xs:element name="diasLimite" type="xs:int" minOccurs="0"/>
+      <xs:element name="editSigner" type="xs:int" minOccurs="0"/>
+      <xs:element name="idAction" type="xs:int" minOccurs="0"/>
+      <xs:element name="idActionDeadTask" type="xs:int" minOccurs="0"/>
+      <xs:element name="idOrgGroupExternal" type="xs:string" minOccurs="0"/>
+      <xs:element name="idOrganizationGroup" type="xs:int" minOccurs="0"/>
+      <xs:element name="idRol" type="xs:int" minOccurs="0"/>
+      <xs:element name="iduser" type="xs:int" minOccurs="0"/>
+      <xs:element name="nif" type="xs:string" minOccurs="0"/>
+      <xs:element name="noticeDays" type="xs:int" minOccurs="0"/>
+      <xs:element name="reassignTask" type="xs:int" minOccurs="0"/>
+      <xs:element name="signatureType" type="xs:string" minOccurs="0"/>
+      <xs:element name="signdesatendida" type="xs:int" minOccurs="0"/>
+      <xs:element name="timestamp" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="initCircuitBySignersResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:resultWSResponse" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deleteDocument">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+      <xs:element name="guid" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deleteDocumentResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:resultResponse" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="createTicket">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+      <xs:element name="arg1" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="createTicketResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:pfWsTicket" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="pfWsTicket">
+    <xs:sequence>
+      <xs:element name="ticket" type="xs:base64Binary" minOccurs="0"/>
+      <xs:element name="user" type="tns:userTicket" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="userTicket">
+    <xs:sequence>
+      <xs:element name="iduser" type="xs:int" minOccurs="0"/>
+      <xs:element name="mail" type="xs:string" minOccurs="0"/>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="nif" type="xs:string" minOccurs="0"/>
+      <xs:element name="orgcif" type="xs:string" minOccurs="0"/>
+      <xs:element name="surname" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchCircuits">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+      <xs:element name="IdCircuitInstance" type="xs:string" minOccurs="0"/>
+      <xs:element name="Asunto" type="xs:string" minOccurs="0"/>
+      <xs:element name="solicitante" type="xs:int" minOccurs="0"/>
+      <xs:element name="grupo" type="xs:int" minOccurs="0"/>
+      <xs:element name="circuito" type="xs:int" minOccurs="0"/>
+      <xs:element name="metaCircuito" type="xs:string" minOccurs="0"/>
+      <xs:element name="opFec" type="xs:int" minOccurs="0"/>
+      <xs:element name="fecha" type="xs:string" minOccurs="0"/>
+      <xs:element name="fehcaIni" type="xs:string" minOccurs="0"/>
+      <xs:element name="fechaFin" type="xs:string" minOccurs="0"/>
+      <xs:element name="utlimos" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchCircuitsResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:circuitInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getFormByCircuitDef">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+      <xs:element name="idCircuitDef" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getFormByCircuitDefResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:scircuitForm" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="scircuitForm">
+    <xs:sequence>
+      <xs:element name="data" type="xs:string" minOccurs="0"/>
+      <xs:element name="description" type="xs:string" minOccurs="0"/>
+      <xs:element name="guid_description" type="xs:int" minOccurs="0"/>
+      <xs:element name="guid_name" type="xs:int" minOccurs="0"/>
+      <xs:element name="idform" type="xs:int" minOccurs="0"/>
+      <xs:element name="idorganization" type="xs:int" minOccurs="0"/>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="typeForm" type="xs:int" minOccurs="0"/>
+      <xs:element name="visible" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getTreeEstructure">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getTreeEstructureResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:treeNode" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="treeNode">
+    <xs:sequence>
+      <xs:element name="childs" type="tns:treeNode" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="description" type="xs:string" minOccurs="0"/>
+      <xs:element name="id" type="xs:string" minOccurs="0"/>
+      <xs:element name="id2" type="xs:string" minOccurs="0"/>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="ref" type="xs:string" minOccurs="0"/>
+      <xs:element name="type" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="downloadFile">
+    <xs:sequence>
+      <xs:element name="signedTicket" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+      <xs:element name="iddocumentversion" type="xs:string" minOccurs="0"/>
+      <xs:element name="tipo" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="downloadFileResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:signDocObject" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

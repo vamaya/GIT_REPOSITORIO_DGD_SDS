@@ -1,0 +1,17 @@
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\bin\Release\WordAddIn2.dll.config
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\bin\Release\WordAddIn2.dll
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\bin\Release\WordAddIn2.pdb
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\bin\Release\WordAddIn2.dll.manifest
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\bin\Release\WordAddIn2.vsto
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.dll
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\bin\Release\Microsoft.Office.Tools.dll
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\bin\Release\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\bin\Release\Microsoft.Office.Tools.Word.dll
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\bin\Release\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\obj\Release\WordAddIn2.Properties.Resources.resources
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\obj\Release\WordAddIn2.Ribbon1.resources
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\obj\Release\WordAddIn2.UserControl1.resources
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\obj\Release\WordAddIn2.csproj.GenerateResource.Cache
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\obj\Release\WordAddIn2.dll
+C:\Users\lbarreru\documents\visual studio 2017\Projects\WordAddIn2\WordAddIn2\obj\Release\WordAddIn2.pdb

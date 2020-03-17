@@ -1,0 +1,226 @@
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\bin\Release\App.config
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll.config
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.pdb
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll.manifest
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.vsto
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Word.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\bin\Release\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\obj\Release\WordAddIn2.Properties.Resources.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.BrRibbon.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.BrUserControl.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.SearchForm.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.DatosDestinosForm.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.SearchFormCarta.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.csproj.GenerateResource.Cache
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.csproj.CoreCompileInputs.cache
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.pdb
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\App.config
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll.config
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.pdb
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll.manifest
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.vsto
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Word.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\WordAddIn2.Properties.Resources.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.BrRibbon.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.BrUserControl.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.SearchForm.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.DatosDestinosForm.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.SearchFormCarta.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.csproj.GenerateResource.Cache
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.csproj.CoreCompileInputs.cache
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.pdb
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\App.config
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll.config
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.pdb
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll.manifest
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.vsto
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Word.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\bin\Release\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\WordAddIn2.Properties.Resources.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.BrRibbon.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.BrUserControl.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.SearchForm.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.DatosDestinosForm.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.SearchFormCarta.resources
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.csproj.GenerateResource.Cache
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.csproj.CoreCompileInputs.cache
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.dll
+C:\Users\lvacaru860527350\source\repos\Repo-Add in\Repo-Add in\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.pdb
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\bin\Release\App.config
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll.config
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.pdb
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll.manifest
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.vsto
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.dll
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.dll
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Word.dll
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\bin\Release\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\obj\Release\WordAddIn2.Properties.Resources.resources
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.BrRibbon.resources
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.BrUserControl.resources
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.SearchForm.resources
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.DatosDestinosForm.resources
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.SearchFormCarta.resources
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.csproj.GenerateResource.cache
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.csproj.CoreCompileInputs.cache
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.csproj.CopyComplete
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.dll
+C:\Users\lvacarue\source\repos\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.pdb
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\bin\Release\App.config
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll.config
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.pdb
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.dll.manifest
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\bin\Release\CorrAddIn.vsto
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.dll
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.dll
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\bin\Release\Microsoft.Office.Tools.Word.dll
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\bin\Release\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\obj\Release\WordAddIn2.Properties.Resources.resources
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.BrRibbon.resources
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.BrUserControl.resources
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.SearchForm.resources
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.DatosDestinosForm.resources
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\obj\Release\CorrWordAddIn.SearchFormCarta.resources
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.csproj.GenerateResource.cache
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.csproj.CoreCompileInputs.cache
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.csproj.CopyComplete
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.dll
+C:\Users\ssalazsa\source\Repo-Add in\WordAddIn2\obj\Release\CorrAddIn.pdb
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\bin\Release\App.config
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\bin\Release\CorrAddIn.dll.config
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\bin\Release\CorrAddIn.dll
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\bin\Release\CorrAddIn.pdb
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\bin\Release\CorrAddIn.dll.manifest
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\bin\Release\CorrAddIn.vsto
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.dll
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\bin\Release\Microsoft.Office.Tools.dll
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\bin\Release\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\bin\Release\Microsoft.Office.Tools.Word.dll
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\bin\Release\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\obj\Release\WordAddIn2.Properties.Resources.resources
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\obj\Release\CorrWordAddIn.BrRibbon.resources
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\obj\Release\CorrWordAddIn.BrUserControl.resources
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\obj\Release\CorrWordAddIn.SearchForm.resources
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\obj\Release\CorrWordAddIn.DatosDestinosForm.resources
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\obj\Release\CorrWordAddIn.SearchFormCarta.resources
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\obj\Release\CorrAddIn.csproj.GenerateResource.cache
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\obj\Release\CorrAddIn.csproj.CoreCompileInputs.cache
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\obj\Release\CorrAddIn.csproj.CopyComplete
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\obj\Release\CorrAddIn.dll
+C:\Users\ssalazsa\source\Repo-Add in - copia (2)\WordAddIn2\obj\Release\CorrAddIn.pdb
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\bin\Release\App.config
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\bin\Release\CorrAddIn.dll.config
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\bin\Release\CorrAddIn.dll
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\bin\Release\CorrAddIn.pdb
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\bin\Release\CorrAddIn.dll.manifest
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\bin\Release\CorrAddIn.vsto
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.dll
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\bin\Release\Microsoft.Office.Tools.dll
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\bin\Release\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\bin\Release\Microsoft.Office.Tools.Word.dll
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\bin\Release\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\obj\Release\WordAddIn2.Properties.Resources.resources
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\obj\Release\CorrWordAddIn.BrRibbon.resources
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\obj\Release\CorrWordAddIn.BrUserControl.resources
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\obj\Release\CorrWordAddIn.SearchForm.resources
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\obj\Release\CorrWordAddIn.DatosDestinosForm.resources
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\obj\Release\CorrWordAddIn.SearchFormCarta.resources
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\obj\Release\CorrAddIn.csproj.GenerateResource.cache
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\obj\Release\CorrAddIn.csproj.CoreCompileInputs.cache
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\obj\Release\CorrAddIn.csproj.CopyComplete
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\obj\Release\CorrAddIn.dll
+C:\Users\ssalazsa\source\Repo-Add in - Ultima Version\WordAddIn2\obj\Release\CorrAddIn.pdb
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\bin\Release\App.config
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\bin\Release\CorrAddIn.dll.config
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\bin\Release\CorrAddIn.dll
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\bin\Release\CorrAddIn.pdb
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\bin\Release\CorrAddIn.dll.manifest
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\bin\Release\CorrAddIn.vsto
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.dll
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\bin\Release\Microsoft.Office.Tools.dll
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\bin\Release\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\bin\Release\Microsoft.Office.Tools.Word.dll
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\bin\Release\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\obj\Release\WordAddIn2.Properties.Resources.resources
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\obj\Release\CorrWordAddIn.BrRibbon.resources
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\obj\Release\CorrWordAddIn.BrUserControl.resources
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\obj\Release\CorrWordAddIn.SearchForm.resources
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\obj\Release\CorrWordAddIn.DatosDestinosForm.resources
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\obj\Release\CorrWordAddIn.SearchFormCarta.resources
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\obj\Release\CorrAddIn.csproj.GenerateResource.cache
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\obj\Release\CorrAddIn.csproj.CoreCompileInputs.cache
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\obj\Release\CorrAddIn.csproj.CopyComplete
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\obj\Release\CorrAddIn.dll
+C:\Users\ssalazsa\source\Repo-Add in - Version 12062018\WordAddIn2\obj\Release\CorrAddIn.pdb
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\bin\Release\App.config
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\bin\Release\CorrAddIn.dll.config
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\bin\Release\CorrAddIn.dll
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\bin\Release\CorrAddIn.pdb
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\bin\Release\CorrAddIn.dll.manifest
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\bin\Release\CorrAddIn.vsto
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.dll
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\bin\Release\Microsoft.Office.Tools.dll
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\bin\Release\Microsoft.Office.Tools.v4.0.Framework.dll
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\bin\Release\Microsoft.Office.Tools.Word.dll
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\bin\Release\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\obj\Release\WordAddIn2.Properties.Resources.resources
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\obj\Release\CorrWordAddIn.BrRibbon.resources
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\obj\Release\CorrWordAddIn.BrUserControl.resources
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\obj\Release\CorrWordAddIn.SearchForm.resources
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\obj\Release\CorrWordAddIn.DatosDestinosForm.resources
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\obj\Release\CorrWordAddIn.SearchFormCarta.resources
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\obj\Release\CorrAddIn.csproj.GenerateResource.cache
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\obj\Release\CorrAddIn.csproj.CoreCompileInputs.cache
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\obj\Release\CorrAddIn.csproj.CopyComplete
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\obj\Release\CorrAddIn.dll
+D:\Stiven Salazar\Correspondencia\7. AddIn\Proyectos\Add-In Version 12062018\Código Fuente\actual\br-iconecta-addin-correspondencia\WordAddIn2\obj\Release\CorrAddIn.pdb
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\bin\Release\Resources\App.config
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\bin\Release\CorrAddIn.dll.config
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\bin\Release\CorrAddIn.dll
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\bin\Release\CorrAddIn.pdb
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\bin\Release\CorrAddIn.dll.manifest
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\bin\Release\CorrAddIn.vsto
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.dll
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\bin\Release\Microsoft.Office.Tools.dll
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\bin\Release\Microsoft.Office.Tools.v4.0.Framework.dll
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\bin\Release\Microsoft.Office.Tools.Word.dll
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\bin\Release\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\obj\Release\WordAddIn2.Properties.Resources.resources
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\obj\Release\CorrWordAddIn.BrRibbon.resources
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\obj\Release\CorrWordAddIn.SearchForm.resources
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\obj\Release\CorrWordAddIn.DatosDestinosForm.resources
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\obj\Release\CorrWordAddIn.SearchFormCarta.resources
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\obj\Release\CorrAddIn.csproj.GenerateResource.cache
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\obj\Release\CorrAddIn.csproj.CoreCompileInputs.cache
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\obj\Release\CorrAddIn.csproj.CopyComplete
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\obj\Release\CorrAddIn.dll
+D:\REPOSITORIO_DGD_SDS\4-AddIn\br-cs-addin-correspondencia\WordAddIn2\obj\Release\CorrAddIn.pdb

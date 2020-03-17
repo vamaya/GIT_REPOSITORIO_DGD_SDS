@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>co.gov.banrep.iconecta.cs.autenticacion</groupId>
+	<artifactId>br-iconecta-cs-autenticacion</artifactId>
+	<version>2.0.0</version>
+	<packaging>jar</packaging>
+	<name>br-iconecta-cs-autenticacion</name>
+	<description>Api que ofrece los servicios de autenticación de Content Server</description>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>
+				co.gov.banrep.iconecta.cs.cliente.autenticacion
+			</groupId>
+			<artifactId>
+				br-iconecta-cs-cliente-web-authentication
+			</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.ws</groupId>
+			<artifactId>jaxws-rt</artifactId>
+			<version>2.2.10</version>
+		</dependency>
+	</dependencies>
+</project>

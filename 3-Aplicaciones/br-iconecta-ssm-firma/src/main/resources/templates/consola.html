@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Administracion Maquina de Estados Firma Digital</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+			<form action="#" data-th-action="@{/consola}" data-th-object="${model}" method="post">
+			<div>
+				<p th:text="'Elegir evento'" />
+			</div>
+			<ul>
+				<li th:each="ty : ${eventosConsola}">
+					<input type="radio" name="evento" th:value="${ty}" />
+					<label th:text="${ty}">replaced</label>
+				</li>
+			</ul>			
+			<div>
+				<p>Id Maquina: </p>
+				<input type="text" name="idMaquina" value="" />
+			</div>
+			<button type="submit" name="action" value="enviarEvento">Enviar evento</button>
+		</form>
+		<div>
+			<p th:text="'Maquinas:'" />
+			<table>
+				<tr>
+					<th>Id</th>
+					<th>Estado</th>
+				</tr>
+				<tr th:each="maquina : ${maquinas}">
+					<td th:text="${maquina.id}"/>
+					<td th:text="${maquina.state.ids}"/>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<form action="#" data-th-action="@{/consola}" method="get">
+				<button type="submit">Actualizar</button>
+			</form>
+		</div>		
+	</body>
+</html>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrAddIn", "CorrAddIn.csproj", "{AFD08883-37E8-4D05-A04A-138ABD3132CC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CorrInstaller", "..\CorrInstaller\CorrInstaller.vdproj", "{8C836B47-3E1B-4D3E-B139-C5B90DBD82FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD08883-37E8-4D05-A04A-138ABD3132CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD08883-37E8-4D05-A04A-138ABD3132CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD08883-37E8-4D05-A04A-138ABD3132CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD08883-37E8-4D05-A04A-138ABD3132CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C836B47-3E1B-4D3E-B139-C5B90DBD82FC}.Debug|Any CPU.ActiveCfg = Debug
+		{8C836B47-3E1B-4D3E-B139-C5B90DBD82FC}.Debug|Any CPU.Build.0 = Debug
+		{8C836B47-3E1B-4D3E-B139-C5B90DBD82FC}.Release|Any CPU.ActiveCfg = Release
+		{8C836B47-3E1B-4D3E-B139-C5B90DBD82FC}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3220EA2-E766-4FE1-8B72-4B7B1F89C30C}
+	EndGlobalSection
+EndGlobal

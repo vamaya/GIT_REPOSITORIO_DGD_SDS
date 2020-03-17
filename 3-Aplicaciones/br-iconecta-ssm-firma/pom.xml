@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>co.gov.banrep.iconecta.ssm.firma</groupId>
+	<artifactId>br-iconecta-ssm-firma</artifactId>
+	<version>2.1.1</version>
+	<packaging>war</packaging>
+
+	<name>br-iconecta-ssm-firma</name>
+	<description>Implementacion de Spring State Machine (SSM) para la integracion de CS y PF</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.9.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.statemachine</groupId>
+			<artifactId>spring-statemachine-core</artifactId>
+			<version>1.2.7.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.statemachine</groupId>
+			<artifactId>spring-statemachine-test</artifactId>
+			<version>1.2.7.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.statemachine</groupId>
+			<artifactId>spring-statemachine-kryo</artifactId>
+			<version>1.2.7.RELEASE</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.esotericsoftware/kryo -->
+		<dependency>
+			<groupId>com.esotericsoftware</groupId>
+			<artifactId>kryo</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc7</artifactId>
+			<version>12.1.0.2.0</version>
+		</dependency>
+		
+		
+		<!-- Dependencias br-iconecta -->
+		
+		<dependency>
+			<groupId>co.gov.banrep.iconecta.cs.autenticacion</groupId>
+			<artifactId>br-iconecta-cs-autenticacion</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+		<!--  
+		<dependency>
+			<groupId>co.gov.banrep.iconecta.cs.usuario</groupId>
+			<artifactId>br-iconecta-cs-usuario</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+		-->
+		<dependency>
+			<groupId>co.gov.banrep.iconecta.cs.workflow</groupId>
+			<artifactId>br-iconecta-cs-workflow</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>co.gov.banrep.iconecta.cs.documento</groupId>
+			<artifactId>br-iconecta-cs-documento</artifactId>
+			<version>2.1.0</version>
+		</dependency>		
+		<dependency>
+			<groupId>co.gov.banrep.iconecta.pf.circuito</groupId>
+			<artifactId>br-iconecta-pf-circuito</artifactId>
+			<version>1.0.0</version>
+		</dependency>		
+		<dependency>
+			<groupId>co.gov.banrep.iconecta.ssm.firma.plugin</groupId>
+			<artifactId>br-iconecta-ssm-firma-plugin</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+		
+		<!-- FIN Dependencias br-iconecta -->
+				
+		<dependency>
+			<groupId>com.sun.xml.ws</groupId>
+			<artifactId>jaxws-rt</artifactId>
+			<version>2.2.10</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.fasterxml.woodstox</groupId>
+			<artifactId>woodstox-core</artifactId>
+			<version>5.0.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>se.jiderhamn.classloader-leak-prevention</groupId>
+			<artifactId>classloader-leak-prevention-servlet3</artifactId>
+			<version>2.4.0</version>
+		</dependency>
+
+
+	</dependencies>
+	<build>
+		<finalName>iconecta-firma</finalName>	
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!--
+				<configuration>
+					<encoding>UTF-8</encoding>
+				</configuration>
+				-->
+			</plugin>
+
+		</plugins>
+	</build>	
+</project>

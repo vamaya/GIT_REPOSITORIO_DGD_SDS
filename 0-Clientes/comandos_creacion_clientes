@@ -1,0 +1,9 @@
+mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=co.gov.banrep.iconecta.cs.cliente.autenticacion -DartifactId=br-iconecta-cs-cliente-web-authentication -Dversion=1.0.0
+
+mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=co.gov.banrep.iconecta.cs.cliente.user -DartifactId=br-iconecta-cs-cliente-web-user -Dversion=1.0.0
+
+mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=co.gov.banrep.iconecta.cs.cliente.document -DartifactId=br-iconecta-cs-cliente-web-document -Dversion=1.0.0
+
+mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=co.gov.banrep.iconecta.cs.cliente.workflow -DartifactId=br-iconecta-cs-cliente-web-workflow -Dversion=1.0.0
+
+mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=co.gov.banrep.iconecta.pf.cliente -DartifactId=br-iconecta-pf-cliente -Dversion=1.0.0
