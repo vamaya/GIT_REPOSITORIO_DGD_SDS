@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>co.gov.banrep.iconecta.pf.circuito</groupId>
-	<artifactId>br-iconecta-pf-circuito</artifactId>
+	<groupId>co.gov.banrep.iconecta</groupId>
+	<artifactId>pf-circuito</artifactId>
 	<version>1.0.0</version>
-	<name>br-iconecta-pf-circuito</name>
+	<name>pf-circuito</name>
 	<description>Api que ofrece las funcionalidades para interactuar con los servicios de Creación de Circuitos de Portafirmas</description>
 
 	<properties>
@@ -29,8 +29,8 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.pf.cliente</groupId>
-			<artifactId>br-iconecta-pf-cliente</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>pf-cliente</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 		

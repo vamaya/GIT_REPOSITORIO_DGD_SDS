@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>co.gov.banrep.iconecta.cs.usuario</groupId>
-	<artifactId>br-iconecta-cs-usuario</artifactId>
+	<groupId>co.gov.banrep.iconecta</groupId>
+	<artifactId>cs-usuario</artifactId>
 	<version>2.0.0</version>
-	<name>br-iconecta-cs-usuario</name>
+	<name>cs-usuario</name>
 	
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -19,8 +19,8 @@
 			<version>2.2.10</version>
 		</dependency>
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.cs.cliente.user</groupId>
-			<artifactId>br-iconecta-cs-cliente-web-user</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>cs-cliente-web-user</artifactId>
 			<version>2.0.0</version>
 		</dependency>
 	</dependencies>

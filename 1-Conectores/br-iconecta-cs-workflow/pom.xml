@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>co.gov.banrep.iconecta.cs.workflow</groupId>
-	<artifactId>br-iconecta-cs-workflow</artifactId>
+	<groupId>co.gov.banrep.iconecta</groupId>
+	<artifactId>cs-workflow</artifactId>
 	<version>2.0.1</version>
-	<name>br-iconecta-cs-workflow</name>
+	<name>cs-workflow</name>
 	<description>Api para la comunicacion con los workflows de Content Server</description>
 
 	<properties>
@@ -20,15 +20,15 @@
 			<version>2.2.10</version>
 		</dependency>
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.cs.cliente.document</groupId>
-			<artifactId>br-iconecta-cs-cliente-web-document</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>cs-cliente-web-document</artifactId>
 			<version>2.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>
-				co.gov.banrep.iconecta.cs.cliente.workflow
+				co.gov.banrep.iconecta
 			</groupId>
-			<artifactId>br-iconecta-cs-cliente-web-workflow</artifactId>
+			<artifactId>cs-cliente-web-workflow</artifactId>
 			<version>2.0.0</version>
 		</dependency>
 	</dependencies>
