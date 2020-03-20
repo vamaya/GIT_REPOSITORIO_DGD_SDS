@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>co.gov.banrep.iconecta.ssm.firma.respuestapf</groupId>
-	<artifactId>br-iconecta-ssm-firma-respuesta-pf</artifactId>
+	<groupId>co.gov.banrep.iconecta</groupId>
+	<artifactId>ssm-firma-respuesta-pf</artifactId>
 	<version>1.0.2</version>
 	<packaging>war</packaging>
 	<description>Applicacion para el manejo de las respuestas de los circuitos que son enviadas por Portafirmas</description>
 
-	<name>br-iconecta-ssm-firma-respuesta-pf</name>
+	<name>ssm-firma-respuesta-pf</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

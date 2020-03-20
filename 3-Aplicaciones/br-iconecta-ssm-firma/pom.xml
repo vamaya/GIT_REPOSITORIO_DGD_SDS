@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>co.gov.banrep.iconecta.ssm.firma</groupId>
-	<artifactId>br-iconecta-ssm-firma</artifactId>
+	<groupId>co.gov.banrep.iconecta</groupId>
+	<artifactId>ssm-firma</artifactId>
 	<version>2.1.1</version>
 	<packaging>war</packaging>
 
-	<name>br-iconecta-ssm-firma</name>
+	<name>ssm-firma</name>
 	<description>Implementacion de Spring State Machine (SSM) para la integracion de CS y PF</description>
 
 	<properties>
@@ -92,8 +92,8 @@
 		<!-- Dependencias br-iconecta -->
 		
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.cs.autenticacion</groupId>
-			<artifactId>br-iconecta-cs-autenticacion</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>cs-autenticacion</artifactId>
 			<version>2.0.0</version>
 		</dependency>
 		<!--  
@@ -104,23 +104,23 @@
 		</dependency>
 		-->
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.cs.workflow</groupId>
-			<artifactId>br-iconecta-cs-workflow</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>cs-workflow</artifactId>
 			<version>2.0.1</version>
 		</dependency>
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.cs.documento</groupId>
-			<artifactId>br-iconecta-cs-documento</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>cs-documento</artifactId>
 			<version>2.1.0</version>
 		</dependency>		
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.pf.circuito</groupId>
-			<artifactId>br-iconecta-pf-circuito</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>pf-circuito</artifactId>
 			<version>1.0.0</version>
 		</dependency>		
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.ssm.firma.plugin</groupId>
-			<artifactId>br-iconecta-ssm-firma-plugin</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>ssm-firma-plugin</artifactId>
 			<version>2.0.1</version>
 		</dependency>
 		

@@ -4,12 +4,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>co.gov.banrep.iconecta.ssm.correspondencia</groupId>
-	<artifactId>br-iconecta-ssm-correspondencia</artifactId>
+	<groupId>co.gov.banrep.iconecta</groupId>
+	<artifactId>ssm-correspondencia</artifactId>
 	<version>2.1.1</version>
 	<packaging>war</packaging>
 
-	<name>br-iconecta-ssm-correspondencia</name>
+	<name>ssm-correspondencia</name>
 	<description>Maquina de estados de Spring Boot para el envio de correspondencia</description>
 
 	<parent>
@@ -109,29 +109,29 @@
 		<!-- <dependency> <groupId>org.webjars</groupId> <artifactId>bootstrap</artifactId> 
 			<version>3.3.4</version> </dependency> -->
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.cs.documento</groupId>
-			<artifactId>br-iconecta-cs-documento</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>cs-documento</artifactId>
 			<version>2.1.0</version>
 		</dependency>
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.cs.usuario</groupId>
-			<artifactId>br-iconecta-cs-usuario</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>cs-usuario</artifactId>
 			<version>2.0.0</version>
 		</dependency>
 
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.cs.workflow</groupId>
-			<artifactId>br-iconecta-cs-workflow</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>cs-workflow</artifactId>
 			<version>2.0.1</version>
 		</dependency>
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.cs.autenticacion</groupId>
-			<artifactId>br-iconecta-cs-autenticacion</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>cs-autenticacion</artifactId>
 			<version>2.0.0</version>
 		</dependency>
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.office.documento</groupId>
-			<artifactId>br-iconecta-office-documento</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>office-documento</artifactId>
 			<version>2.1.1</version>
 		</dependency>
 

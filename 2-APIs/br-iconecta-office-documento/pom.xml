@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>co.gov.banrep.iconecta.office.documento</groupId>
-	<artifactId>br-iconecta-office-documento</artifactId>
+	<groupId>co.gov.banrep.iconecta</groupId>
+	<artifactId>office-documento</artifactId>
 	<version>2.1.1</version>
-	<name>br-iconecta-office-documento</name>
+	<name>office-documento</name>
 	<description>API para obterner datos de documentos mediante apache POI</description>
 
 	<properties>

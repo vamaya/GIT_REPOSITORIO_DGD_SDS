@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>co.gov.banrep.iconecta.cs.app.service.utils</groupId>
-	<artifactId>br-iconecta-cs-app-service-utils</artifactId>
+	<groupId>co.gov.banrep.iconecta</groupId>
+	<artifactId>cs-app-service-utils</artifactId>
 	<version>2.1.0</version>
 	<packaging>war</packaging>
 
-	<name>br-iconecta-cs-app-service-utils</name>
+	<name>cs-app-service-utils</name>
 	<description>Aplicacion que permiten realizar operaciones sencillas con los servicios del Content Server</description>
 
 	<parent>
@@ -55,14 +55,14 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.cs.autenticacion</groupId>
-			<artifactId>br-iconecta-cs-autenticacion</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>cs-autenticacion</artifactId>
 			<version>2.0.0</version>
 		</dependency>
 		
 		<dependency>
-			<groupId>co.gov.banrep.iconecta.cs.documento</groupId>
-			<artifactId>br-iconecta-cs-documento</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>cs-documento</artifactId>
 			<version>2.1.0</version>
 		</dependency>
 		

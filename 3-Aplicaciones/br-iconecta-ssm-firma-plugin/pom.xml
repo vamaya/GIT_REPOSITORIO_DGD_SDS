@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>co.gov.banrep.iconecta.ssm.firma.plugin</groupId>
-  <artifactId>br-iconecta-ssm-firma-plugin</artifactId>
+  <groupId>co.gov.banrep.iconecta</groupId>
+  <artifactId>ssm-firma-plugin</artifactId>
   <version>2.0.1</version>
-  <name>br-iconecta-ssm-firma-plugin</name>
+  <name>ssm-firma-plugin</name>
   <description>Acciones externas para la maquina de estados</description>
   
   <properties>
@@ -16,8 +16,8 @@
 	</properties>
 	<dependencies>
   		<dependency>
-			<groupId>co.gov.banrep.iconecta.cs.workflow</groupId>
-			<artifactId>br-iconecta-cs-workflow</artifactId>
+			<groupId>co.gov.banrep.iconecta</groupId>
+			<artifactId>cs-workflow</artifactId>
 			<version>2.0.1</version>
 		</dependency>
 	</dependencies>
